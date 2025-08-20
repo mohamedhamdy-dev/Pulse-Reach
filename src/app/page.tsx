@@ -1,13 +1,13 @@
 import AboutUs from "./ui/AboutUs";
-import BackgroundVideo from "./ui/BackgroundVideo";
-import CaseStudies from "./ui/CaseStudy";
-import Contact from "./ui/Contact";
-import Hero from "./ui/Hero";
-import LogoCarousel from "./ui/LogoCarousel";
-import Navbar from "./ui/Navbar";
-import OurServices from "./ui/OurServices";
-import Shorts from "./ui/Shorts";
-import Video from "./ui/Video";
+import BackgroundVideo from "./ui/tBackgroundVideo";
+import CaseStudies from "./ui/tCaseStudy";
+import Contact from "./ui/tContact";
+import Hero from "./ui/tHero";
+import LogoCarousel from "./ui/tLogoCarousel";
+import Navbar from "./ui/tNavbar";
+import OurServices from "./ui/tOurServices";
+import Shorts from "./ui/tShorts";
+import Video from "./ui/tVideo";
 
 const logos = [
   "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
