@@ -1,4 +1,4 @@
-import BackgroundVideo from "./tBackgroundVideo";
+import BackgroundVideo from "../Components/BackgroundVideo";
 
 export default function Hero() {
   return (
