@@ -2,7 +2,8 @@ import AboutUs from "./Components/AboutUs";
 import BackgroundVideo from "./Components/BackgroundVideo";
 import CaseStudies from "./Components/CaseStudy";
 import Contact from "./Components/Contact";
-import Hero from "./ui/Hero";
+import Hero from "./Components/Hero";
+
 import LogoCarousel from "./Components/LogoCarousel";
 import Navbar from "./Components/Navbar";
 import OurServices from "./Components/OurServices";
