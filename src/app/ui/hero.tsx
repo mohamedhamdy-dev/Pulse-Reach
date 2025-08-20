@@ -1,4 +1,4 @@
-import BackgroundVideo from "./backgroundVideo";
+import BackgroundVideo from "./BackgroundVideo";
 
 export default function Hero() {
   return (

@@ -1,4 +1,4 @@
-import VerticalVideo from "./verticalVideo";
+import VerticalVideo from "./VerticalVideo";
 
 export default function Shorts() {
   return (

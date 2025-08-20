@@ -1,11 +1,23 @@
-import AboutUs from "./ui/aboutUs";
-import BackgroundVideo from "./ui/backgroundVideo";
-import CaseStudies from "./ui/caseStudy";
-import Hero from "./ui/hero";
-import Navbar from "./ui/navbar";
-import OurServices from "./ui/ourServices";
-import Shorts from "./ui/shorts";
-import Video from "./ui/video";
+import AboutUs from "./ui/AboutUs";
+import BackgroundVideo from "./ui/BackgroundVideo";
+import CaseStudies from "./ui/CaseStudy";
+import Contact from "./ui/Contact";
+import Hero from "./ui/Hero";
+import LogoCarousel from "./ui/LogoCarousel";
+import Navbar from "./ui/Navbar";
+import OurServices from "./ui/OurServices";
+import Shorts from "./ui/Shorts";
+import Video from "./ui/Video";
+
+const logos = [
+  "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+  "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+  "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+  "https://upload.wikimedia.org/wikipedia/commons/0/0e/Puma_logo.svg",
+  "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+  "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+  "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+];
 
 export default function App() {
   return (
@@ -16,12 +28,14 @@ export default function App() {
         <AboutUs />
         <OurServices />
         {/* <CaseStudies /> */}
-        {/* <Video
+        <Video
           src="/videos/Khyam ... A Tent For The Soul.mp4"
           youtubeLink="https://youtu.be/W67mTedWhQg"
           title="Khyam ... A Tent For The Soul"
-        /> */}
+        />
         <Shorts />
+        <LogoCarousel logos={logos} />
+        <Contact />
       </div>
     </>
   );
